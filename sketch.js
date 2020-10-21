@@ -71,7 +71,7 @@ function setup() {
 
  
 function draw() {
-  //background("green");
+  background("lightblue");
   
     if (backGround.x < 0){
       backGround.x = backGround.width/2;
