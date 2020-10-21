@@ -30,7 +30,7 @@ function setup() {
   backGround.scale = 3;
   backGround.velocityX = -3;
   
-  bow = createSprite(width-100, height/2, 20,40);
+  bow = createSprite(width-10, height/2, 20,40);
   bow.addImage(bowI);
   bow.scale = 1;
   //bow.debug = true;
@@ -109,7 +109,7 @@ function draw() {
 }// draw()
 
 function drawArrow(){
-  arrow = createSprite(width-120, height/2, 10,2);
+  arrow = createSprite(width-20, height/2, 10,2);
   arrow.addImage(arrowI);
   arrow.scale = 0.4;
   arrow.velocityX = -6;
