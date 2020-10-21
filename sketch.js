@@ -4,7 +4,6 @@ var backGround, arrow, bow;
 var backgroundI, arrowI, bowI, redI, blueI, greenI, pinkI;
 var redG, blueG, greenG, pinkG, arrowG;
 var blue, pink, red, green;
-var toggle;
 
 function preload(){
  //load your images here 
@@ -71,12 +70,11 @@ function setup() {
 
  
 function draw() {
-  background("lightblue");
+  //background("lightblue");
   
     if (backGround.x < 0){
       backGround.x = backGround.width/2;
     }
-  
   
   bow.y = mouseY;
   
@@ -103,7 +101,7 @@ function draw() {
   destroyBalloons();
   
   fill(0);
-  text("Score: "+score, width-100, 20);
+  text("Score: "+score, width-50, 20);
   
   
 }// draw()
