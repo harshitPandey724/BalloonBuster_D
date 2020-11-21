@@ -25,7 +25,8 @@ function setup() {
   score = 0;
   
   backGround = createSprite(width/2,height/2,width,height);
-  backGround.addImage(backgroundI);
+  //backGround.addImage(backgroundI);
+ //harshit
   backGround.scale = 3;
   backGround.velocityX = -3;
   
